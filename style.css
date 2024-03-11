@@ -38,6 +38,10 @@ header div a{
     width: 48px;
 }
 
+header div a span:hover{
+    color: #3B99FC;
+}
+
 main{
     min-height: 75vh;
     display: flex;
