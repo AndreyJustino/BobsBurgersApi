@@ -37,11 +37,15 @@ function main(n){
 main(cont)
 
 buttoDireita.addEventListener("click", () => {
-    cont = cont + 3
+    if(cont <= 496){
+        cont = cont + 3
 
-    divImgs.innerHTML = ""
+        divImgs.innerHTML = ""
 
-    main(cont)
+        main(cont)
+    }
+    
+    
 })
 
 buttoEsquerda.addEventListener("click", () => {
