@@ -33,31 +33,78 @@ header div a{
     color: #000000;
 }
 
-.header_git img, .footer_icon img{
+.header_git img{
     height: 48px;
     width: 48px;
 }
 
-main{
-    height: 72vh;
+section{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.container{
+    padding: 10px;
+    min-width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.card{
+    width: 320px;
+    height: 320px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px black;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.image-personagem{
+    object-fit: cover;
+    height: 200px;
+    width: 120px;
+}
+
+.seta{
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.seta img{
+    height: 30px;
+    width: 30px; 
+    filter: drop-shadow(2px 5px 5px black);
+}
+
+.div-setas button{
+    margin: 10px;
 }
 
 footer{
-    height: 12vh;
     background-color: #ffffff;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
 }
 
 footer ul{
+    padding: 15px;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    justify-content: center;
+    gap: 20px;
 }
 
-footer ul li{
-    margin: 10px;
+.footer_icon img{
+    height: 43px;
+    width: 43px;
 }
